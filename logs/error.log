@@ -1,0 +1,2 @@
+2021/08/04 14:10:16 [alert] 15990#15990: lua_code_cache is off; this will hurt performance in /home/kevin/web/openresty/yun_service/conf/nginx.conf:18
+2021/08/04 18:59:27 [emerg] 15992#15992: *3233 [lua] mysql.lua:105: query(): mysql.query_failed:nilfailed to receive packet header: closed, context: ngx.timer
