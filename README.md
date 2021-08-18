@@ -12,11 +12,11 @@ app                      		主应用程序文件夹
 		base.lua 				所有API的基类
 	configs
 		environment
-			development.lua 		开发环境配置
-			testing.lua 			测试环境配置
-			production.lua 			生产环境配置
+			development.lua 	开发环境配置
+			testing.lua 		测试环境配置
+			production.lua 		生产环境配置
 		env.lua 				用来标识当前是哪一个环境，默认是开发环境
-		env.online.lua 			线上环境的配置，通过 docker 部署到线上 会自动把此文件改名为 env.lua 来替换老文件的标识
+		env.online.lua 			线上环境的配置，通过 docker 部署到线上 会自动把此文件改名为 
 		env.testing.lua 		测试环境的配置
 		params.lua 				全局的参数
 		rotue.lua 				API的路由白名单
